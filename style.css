@@ -1,0 +1,18 @@
+#main {
+    width: 100vw;
+}
+
+#img-div {
+    position: relative;
+}
+
+#image {
+    max-width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
