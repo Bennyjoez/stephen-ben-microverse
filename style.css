@@ -3,15 +3,25 @@
 }
 
 #img-div {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
 }
 
 #image {
     max-width: 200px;
     height: 300px;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; */
 }
 
 
